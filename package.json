@@ -16,6 +16,9 @@
     "react-video-js-player": "1.1.1",
     "web-vitals": "^1.1.2"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

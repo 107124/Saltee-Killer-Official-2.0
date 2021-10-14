@@ -29,6 +29,7 @@ export default class Home extends React.Component {
             glarePosition="bottom"
           >
             <h1>KENT</h1>
+            <h1>TAYLOR</h1>
           </Tilt>
         </div>
       </div>

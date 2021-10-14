@@ -1,21 +1,21 @@
 import React from "react";
 // import axios from "axios";
-import VideoPlayer from "react-video-js-player";
+// import VideoPlayer from "react-video-js-player";
 
 import "./styles/videos.css";
 import NavBar from "./navigation";
 
 // var axios = require("axios").default;
 
-var options = {
-  method: "GET",
-  url: "https://youtube-search-results.p.rapidapi.com/youtube-search/",
-  params: { q: "salteekiller" },
-  headers: {
-    "x-rapidapi-host": "youtube-search-results.p.rapidapi.com",
-    "x-rapidapi-key": "7603016162msh8263f88a5aa10dfp18e91ajsna3493aef8fcf"
-  }
-};
+// var options = {
+//   method: "GET",
+//   url: "https://youtube-search-results.p.rapidapi.com/youtube-search/",
+//   params: { q: "salteekiller" },
+//   headers: {
+//     "x-rapidapi-host": "youtube-search-results.p.rapidapi.com",
+//     "x-rapidapi-key": "7603016162msh8263f88a5aa10dfp18e91ajsna3493aef8fcf"
+//   }
+// };
 
 // let handleRequest = (event) => {
 //   // event.preventDefault();

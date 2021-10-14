@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+}
+
+.navigation {
+  background-color: blue;
+}
+
+.nav-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 50px;
+  background-color: #191919;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+  /* -webkit-box-shadow: -1px 19px 37px -17px #ffffff2c;
+  box-shadow: -1px 19px 37px -17px #ffffff9f; */
+  border-radius: 30px;
+  width: 90%;
+  margin-top: 42px;
+}
+
+.nav-bar-container img {
+  width: 125px;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.left-links a,
+.right-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  color: red;
+}

@@ -1,0 +1,34 @@
+body {
+  margin: 0px;
+  background-color: black;
+}
+
+.home-page {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+  .tilt {
+    border-radius: 30px;
+  }
+
+  .kent-header h1{
+
+    font-size: 16em;
+    // background-image: url("../images/boom.mov");
+    // background-image: url("../images/giphy.gif");
+    background-image: url("../images/moon.webp");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+
+  }
+}
+
+
+

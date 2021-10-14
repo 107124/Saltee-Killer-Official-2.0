@@ -10,16 +10,17 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+}
 
-  .tilt {
+.tilt {
     border-radius: 30px;
   }
 
   .kent-header h1{
 
     font-size: 16em;
-    // background-image: url("../images/boom.mov");
-    // background-image: url("../images/giphy.gif");
+    /* // background-image: url("../images/boom.mov");
+    // background-image: url("../images/giphy.gif"); */
     background-image: url("../images/moon.webp");
     background-size: cover;
     background-clip: text;
@@ -28,7 +29,7 @@ body {
 
 
   }
-}
+
 
 
 

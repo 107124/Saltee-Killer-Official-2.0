@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "./navigation";
 import Tilt from "react-parallax-tilt";
 
-import "./styles/home.scss";
+import "./styles/home.css";
 
 export default class Home extends React.Component {
   constructor(props) {

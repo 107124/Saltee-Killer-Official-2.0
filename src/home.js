@@ -31,11 +31,11 @@ export default class Home extends React.Component {
             <p>KENT</p>
           </Tilt>
           <div className="subheading">
-            <h6>DEVELOPER</h6>
-            <h6>DESIGNER</h6>
-            <h6>YOUTUBER</h6>
-            <h6>TEACHER</h6>
-            <h6>MENTOR</h6>
+            <h4 className="child-heading">DEVELOPER</h4>
+            <h4 className="child-heading">DESIGNER</h4>
+            <h4 className="child-heading">YOUTUBER</h4>
+            <h4 className="child-heading">TEACHER</h4>
+            <h4 className="child-heading">MENTOR</h4>
           </div>
         </div>
         <div className="whats-new">

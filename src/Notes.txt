@@ -1,6 +1,14 @@
 Color Scheme:
+
 Light Blue: #00D1FF
 Orange: #F17300
 Errie Black: #191919
 Cinnomin Satin: #D36582
 Tea Green: #D0F1BF
+
+
+Fonts:
+
+Apple:  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+Headers:   font-family: 'Anton', sans-serif;
+

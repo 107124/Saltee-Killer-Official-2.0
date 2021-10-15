@@ -8,15 +8,26 @@
     /* align-items: center; */
 }
 
+.header {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
 .card-section {
     display: flex;
-    background-color: #191919;
+    justify-content: center;
+    align-items: center;
     height: 400px;
 }
 
 p {
-    color: #D36582;
     font-size: 12em;
+    background-image: url("https://i.gifer.com/3xBO.gif");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .new-card {

@@ -7,6 +7,8 @@ body {
 }
 
 .nav-bar-container {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.1em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,6 +28,7 @@ body {
   width: 125px;
 }
 
+
 .left-links,
 .right-links {
   display: flex;
@@ -38,8 +41,16 @@ body {
 .right-links a {
   color: white;
   text-decoration: none;
+  transition: ease-in-out 0.25s;
+
+}
+
+.left-links a:hover,
+.right-links a:hover {
+  color: #F17300;
+  text-decoration: none;
 }
 
 .active {
-  color: red;
+  color: #F17300;
 }

@@ -1,0 +1,24 @@
+.whats-new-container {
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.card-section {
+    display: flex;
+    background-color: #191919;
+    height: 400px;
+}
+
+p {
+    color: #D36582;
+    font-size: 12em;
+}
+
+.new-card {
+    margin: 0px 42px;
+}

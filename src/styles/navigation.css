@@ -13,11 +13,13 @@ body {
   margin: 0px 50px;
   background-color: #191919;
   background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
-  /* -webkit-box-shadow: -1px 19px 37px -17px #ffffff2c;
-  box-shadow: -1px 19px 37px -17px #ffffff9f; */
+  -webkit-box-shadow: inset 0px 11px 47px 35px #03030391;
+  box-shadow: inset 0px 11px 47px 35px #03030391;
+  border: 1px solid #00D1FF;
   border-radius: 30px;
   width: 90%;
   margin-top: 42px;
+  position: fixed;
 }
 
 .nav-bar-container img {

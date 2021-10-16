@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./navigation";
+import Iframe from 'react-iframe'
 
 import "./styles/store.css";
 
@@ -13,8 +14,19 @@ export default class Store extends React.Component {
   render() {
     return (
       <div className="store-page">
-        <NavBar />
-        store
+        <div>
+          <NavBar />
+        </div>
+        <div className="store-container">
+          <Iframe
+            url="https://www.salteekiller.store/"
+            width="100%"
+            height="100%"
+            className="store"
+            display="initial"
+          // position="relative"
+          />
+        </div>
       </div>
     );
   }

@@ -1,10 +1,14 @@
 .whats-new-container {
     background-color: white;
-    width: 100%;
+    width: 93%;
     height: 400px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 0px 30px;
+
     /* align-items: center; */
 }
 
@@ -18,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 600px;
 }
 
 p {
@@ -31,5 +35,5 @@ p {
 }
 
 .new-card {
-    margin: 0px 42px;
+    margin: 0px 26px;
 }

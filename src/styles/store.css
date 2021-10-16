@@ -1,5 +1,15 @@
 .store-page {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* height: 100%; */
+}
+
+.store-container {
+  background-color: white;
+  margin-top: 200px;
+  width: 1500px;
+  height: 1000px;
 }

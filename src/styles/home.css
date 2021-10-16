@@ -12,6 +12,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  padding: 20px;
 }
 
 .kent-header p{
@@ -41,7 +42,7 @@ body {
 .child-heading {
   display: flex;
   justify-content: center;
-  background-color: rgba(230, 132, 4, 0.102);
+  background-color: rgba(4, 128, 230, 0.164);
 }
 
 h4 {
@@ -56,9 +57,11 @@ h4 {
 }
 
 .whats-new {
-  width: 100%;
-  padding: 15px;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+  /* padding: 15px; */
+  /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
 }
 
 .new-card {

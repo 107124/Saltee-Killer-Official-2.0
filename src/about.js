@@ -14,7 +14,6 @@ export default class About extends React.Component {
     return (
       <div className="about-page">
         <NavBar />
-        about
       </div>
     );
   }

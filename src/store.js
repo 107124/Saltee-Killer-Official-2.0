@@ -23,10 +23,9 @@ export default class Store extends React.Component {
 
         <div className="store-container">
           <Slide left>
-            <div className="store-header">
+            {/* <div className="store-header">
               <p>Store</p>
-            </div>
-          </Slide>
+            </div> */}
           <div className="iframe-container">
             <Iframe
               url="https://www.salteekiller.store/"
@@ -34,9 +33,10 @@ export default class Store extends React.Component {
               height="100%"
               className="store"
               display="initial"
-            // position="relative"
-            />
+              // position="relative"
+              />
           </div>
+              </Slide>
         </div>
       </div>
     );

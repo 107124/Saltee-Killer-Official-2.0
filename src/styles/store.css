@@ -1,4 +1,4 @@
-body {
+body, html {
   background-color: white;
 }
 
@@ -13,17 +13,17 @@ body {
   /* height: 100%; */
 }
 
-.store-header {
+/* .store-header {
   background: #191919;
   width: 42%;
   border-radius: 0px 100px 0px 0px;
   /* padding: 5px */
-}
+/* }
 
 .store-header p{
   margin: 45px;
   color: rgb(255, 255, 255)
-}
+}  */
 
 .iframe-container {
   display: flex;
@@ -33,7 +33,14 @@ body {
 
 .store-container {
   background-color: white;
-  margin-top: 200px;
-  width: 1500px;
+  width: 97%;
+  height: 100%;
+}
+
+.store-container Iframe{
+  background-color: white;
+  border: none;
+  margin-top: 170px;
+  width: 100%;
   height: 1000px;
 }

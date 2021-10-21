@@ -18,6 +18,9 @@ export default class NavBar extends React.Component {
           <NavLink to="/" activeClassName="active" className="nav-link">
             Home
           </NavLink>
+          <NavLink to="/projects" activeClassName="active" className="nav-link">
+            Projects
+          </NavLink>
           <NavLink to="/videos" activeClassName="active" className="nav-link">
             Videos
           </NavLink>
@@ -28,6 +31,9 @@ export default class NavBar extends React.Component {
         <div className="right-links">
           <NavLink to="/store" activeClassName="active" className="nav-link">
             Store
+          </NavLink>
+          <NavLink to="/resume" activeClassName="active" className="nav-link">
+            Resume
           </NavLink>
           <NavLink to="/about" activeClassName="active" className="nav-link">
             About

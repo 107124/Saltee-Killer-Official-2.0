@@ -59,14 +59,14 @@ h4 {
   background-color: black;
   display: flex;
   justify-content: center;
+  height: 120px;
   /* width: 100%; */
   /* padding: 15px; */
   /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
 }
 
 .new-card {
-  height: 42px;
-
+  height: 100px;
 }
 
 

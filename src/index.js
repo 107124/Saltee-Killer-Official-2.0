@@ -6,6 +6,8 @@ import Home from "./home";
 import About from "./about";
 import Store from "./store";
 import Videos from "./videos";
+import Projects from "./projects";
+import Resume from "./resume";
 
 import "./styles/styles.css";
 
@@ -16,9 +18,11 @@ class Index extends React.Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/projects" component={Projects} />
             <Route path="/store" component={Store} />
             <Route path="/videos" component={Videos} />
             <Route path="/about" component={About} />
+            <Route path="/resume" component={Resume} />
           </Switch>
         </BrowserRouter>
       </div>

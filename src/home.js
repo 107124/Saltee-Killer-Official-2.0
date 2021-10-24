@@ -3,7 +3,7 @@ import NavBar from "./navigation";
 import Tilt from "react-parallax-tilt";
 import WhatsNew from "./components/whatsNew";
 import Fade from 'react-reveal/Fade';
-import FadeInSection from "../src/components/FadeInSection";
+// import FadeInSection from "../src/components/FadeInSection";
 
 import "./styles/home.css";
 
@@ -47,9 +47,7 @@ export default class Home extends React.Component {
           </div>
         </div>
         <div className="whats-new">
-          <FadeInSection>
             <WhatsNew />
-          </FadeInSection>
         </div>
 
       </div>

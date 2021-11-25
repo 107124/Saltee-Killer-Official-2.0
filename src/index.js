@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Home from "./home";
-import About from "./about";
+import Contact from "./contact";
 import Store from "./store";
 import Videos from "./videos";
 import Projects from "./projects";
@@ -21,7 +21,7 @@ class Index extends React.Component {
             <Route exact path="/projects" component={Projects} />
             <Route path="/store" component={Store} />
             <Route path="/videos" component={Videos} />
-            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
             <Route path="/resume" component={Resume} />
           </Switch>
         </BrowserRouter>

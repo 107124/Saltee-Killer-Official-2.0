@@ -45,7 +45,6 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div className="contact-page">
-        <NavBar />
 
         <div className="contact-box">
           <div className="left-side">

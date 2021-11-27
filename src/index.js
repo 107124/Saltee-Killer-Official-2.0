@@ -8,6 +8,8 @@ import Store from "./store";
 import Videos from "./videos";
 import Projects from "./projects";
 import Resume from "./resume";
+import Footer from "./components/footer";
+import NavBar from "./navigation";
 
 import "./styles/styles.css";
 
@@ -15,7 +17,11 @@ class Index extends React.Component {
   render() {
     return (
       <div className="stuff">
+
         <BrowserRouter>
+          <div className="nav-bar-wrapper">
+            <NavBar />
+          </div>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/projects" component={Projects} />
@@ -25,6 +31,10 @@ class Index extends React.Component {
             <Route path="/resume" component={Resume} />
           </Switch>
         </BrowserRouter>
+
+        <div>
+          <Footer />
+        </div>
       </div>
     );
   }

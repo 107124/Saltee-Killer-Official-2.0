@@ -17,9 +17,7 @@ export default class Store extends React.Component {
   render() {
     return (
       <div className="store-page">
-        <div>
-          <NavBar />
-        </div>
+
 
         <div className="store-container">
           <Slide left>

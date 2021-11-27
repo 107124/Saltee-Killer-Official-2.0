@@ -1,4 +1,39 @@
+html{
+  background-color: red;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
+  height: 100%;
+}
+
+.stuff {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-bar-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #0a000f;
+  background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
 }

@@ -17,7 +17,6 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className="home-page">
-        <NavBar />
         <div className="kent-header">
           <Fade up>
             <Tilt
@@ -47,7 +46,7 @@ export default class Home extends React.Component {
           </div>
         </div>
         <div className="whats-new">
-            <WhatsNew />
+          <WhatsNew />
         </div>
 
       </div>

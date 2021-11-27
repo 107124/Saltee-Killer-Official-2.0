@@ -14,7 +14,6 @@ export default class Projects extends React.Component {
   render() {
     return (
       <div className="projects-page">
-        <NavBar />
         <div className="card-section">
             <div className="cards">
             <ProjectCard header="DIY Society" image="" link="https://github.com/107124/DIY"/>

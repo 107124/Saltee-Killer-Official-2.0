@@ -52,7 +52,6 @@ export default class Videos extends React.Component {
   render() {
     return (
       <div className="videos-page">
-        <NavBar />
         <p>{this.state.data}</p>
         {/* <p>{handleRequest()}</p> */}
         {/* <VideoPlayer

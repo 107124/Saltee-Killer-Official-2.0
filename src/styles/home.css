@@ -3,6 +3,8 @@
 body, html {
   margin: 0px;
   background-color: black;
+  overflow: scroll;
+  scrollbar-width: none;
 }
 
 .home-page {

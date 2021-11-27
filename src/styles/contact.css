@@ -1,13 +1,97 @@
 .contact-page {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 20px;
+  background-color: #0a000f;
+background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
 }
 
+.contact-box {
+  display: grid;
+  width: 50%;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-side {
+  display: flex;
+  color: transparent;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
+
+.right-side {
+  border-radius: 30px;
+  background-color: #f5003d;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  margin-left: 15px;
+}
+
 form {
-  margin-top: 200px;
+  /* margin-top: 200px; */
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  font-size: large;
+  font-weight: 600;
+  outline: none;
+  margin: 14px;
+  height: 20px;
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid#D36582;
+  font-family: 'Dosis', sans-serif;
+}
+
+.input::placeholder {
+  text-align: left;
+  color: rgba(255, 255, 255, 0.671);
+  font-family: 'Dosis', sans-serif;
+}
+
+textarea {
+  text-align: center;
+  resize: none;
+  width: 80%;
+  height: 100px;
+  outline: none;
+  font-family: 'Dosis', sans-serif;
+
+}
+
+textarea::placeholder {
+  text-align: left;
+  font-family: 'Dosis', sans-serif;
+
+}
+
+.button {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  width: 50%;
+  outline: none;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 15px;
+  border: none;
+  color: white;
+  background-color: #90ce72;
 }

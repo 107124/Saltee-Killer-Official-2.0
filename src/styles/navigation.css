@@ -20,8 +20,8 @@ body {
   border: 1px solid #00D1FF;
   border-radius: 30px;
   width: 90%;
-  margin-top: 42px;
-  position: fixed;
+  /* margin-top: 42px; */
+  /* position: fixed; */
 }
 
 .nav-bar-container img {

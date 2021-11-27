@@ -39,7 +39,7 @@ export default class WhatsNew extends React.Component {
                     </div>
                     <div className="new-card">
                         <YouTube
-                            videoId={"VQMjFLAIdYI"}
+                            videoId={"mmCoPxxnnK0"}
                             opts={opts}
                         />
                     </div>

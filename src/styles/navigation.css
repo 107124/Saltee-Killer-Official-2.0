@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px;
+  margin: 42px;
   background-color: #191919;
   background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
   -webkit-box-shadow: inset 0px 11px 47px 35px #03030391;

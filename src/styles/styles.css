@@ -8,6 +8,11 @@ html{
   justify-content: space-between;
 }
 
+body {
+  margin: 0px;
+  background-color: black;
+}
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 .scrollbar-hidden::-webkit-scrollbar {
   display: none;
@@ -34,6 +39,6 @@ html{
 .nav-bar-wrapper {
   display: flex;
   justify-content: center;
-  background-color: #0a000f;
-  background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+  background-color: black;
+  margin: 15px;
 }
